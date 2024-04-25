@@ -31,3 +31,5 @@ git add. && git commit -m" " alteracao do arquivo ..." ( executa dois comandos u
 git log ( visualiza log como nome do autor e email , arquivos adicionador.)
 git log --oneline (versao condensada)
 
+git checkout COLOCA ID DO COMMIT ( na parte de log todos commit tem um ID , com isso voce consegue voltar ao estagio de alteracao que voce quiser.)
+git checkout main ( volta para projeto atual)
