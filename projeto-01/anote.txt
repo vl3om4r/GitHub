@@ -26,6 +26,8 @@ git add . (adiciona todos arquivos da pasta)
 git rm --cached nome do arquivo ( remove arquivo de ser commitada)
 git commit -m (uma mensagem para ficar registrada , como adicionando arquivo html.css.js)
 
+git add. && git commit -m" " alteracao do arquivo ..." ( executa dois comandos um depois do outro , git add aquivo e depois commit o arquivo)
+
 git log ( visualiza log como nome do autor e email , arquivos adicionador.)
 git log --oneline (versao condensada)
 
