@@ -1,0 +1,26 @@
+Comandos Git:
+
+git --version ( Você identifica a versão do git , instalada do seu desktop.)
+git config --global --list (Você identifica a lista de configuracoes dentro do git, como usuario e email)
+git config --global user.name "Leomar" (configura um nome )
+git config --global user.email "leomarcappellesso@gmail.com" (configura um email de identificao ,para registro nas alteracoes do arquivos.)
+ls (visualiza oque esta dentro da pasta ou diretorio)
+ls -a ( exibe arquivos ocultos)
+cd .. (volta uma pasta)
+cd .. nome da pasta ( vai direto para pasta especifica)
+mkdir nome do arquivo (cria arquivo .html .txt .css .pnj etc..)
+clear (limpa todo conteudo da tela no git)
+rm nome do arquivo (remove arquivo)
+rm -rf nome do arquivo (forca remocao do arquivo com itens dentro)
+touch nome do arquivo ( cria arquivo como index.html, txt. png. css.)
+nano nome do arquivo ( abre arquivos como html,css,txt etc..)
+cat nome do arquivo ( mostra na tela do git o conteudo do arquivo )
+mv nome do arquivo nome novo ( altera nome do arquivo)
+mc nome do arquivo nome pasta ( move para outra pasta)
+
+
+git init ( iniciar repositorio)
+git status ( visualizar status)
+git add nome do arquivo ( adiciona o arquivo para ser commitada)
+git rm --cached nome do arquivo ( remove arquivo de ser commitada)
+git commit -m (uma mensagem para ficar registrada , como adicionando arquivo html.css.js)
