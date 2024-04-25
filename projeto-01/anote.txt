@@ -33,3 +33,8 @@ git log --oneline (versao condensada)
 
 git checkout COLOCA ID DO COMMIT ( na parte de log todos commit tem um ID , com isso voce consegue voltar ao estagio de alteracao que voce quiser.)
 git checkout main ( volta para projeto atual)
+git checkout master ( volta para projeto atual)
+
+git revert ID DO COMMIT NO LOG (quando voce realiza uma alteracao no projeto e quer remover apenas ela , sem alterar os logs)
+git reset ID DO COMMIT NO LOG  ( porem no arquivo ainda mostra alteracoes do futuros)
+git revert ID DO COMMIT NO LOG --hard ( remove tudo as alteracoes ate no log ( nao é recomendado pois perdera todas as alteracoes)
