@@ -15,15 +15,19 @@ rm -rf nome do arquivo (forca remocao do arquivo com itens dentro)
 touch nome do arquivo ( cria arquivo como index.html, txt. png. css.)
 nano nome do arquivo ( abre arquivos como html,css,txt etc..)
 cat nome do arquivo ( mostra na tela do git o conteudo do arquivo )
+
 mv nome do arquivo nome novo ( altera nome do arquivo)
 mc nome do arquivo nome pasta ( move para outra pasta)
 
 
 git init ( iniciar repositorio)
+
 git status ( visualizar status)
+
 git add nome do arquivo ( adiciona o arquivo para ser commitada)
 git add . (adiciona todos arquivos da pasta)
 git rm --cached nome do arquivo ( remove arquivo de ser commitada)
+
 git commit -m (uma mensagem para ficar registrada , como adicionando arquivo html.css.js)
 
 git add. && git commit -m" " alteracao do arquivo ..." ( executa dois comandos um depois do outro , git add aquivo e depois commit o arquivo)
@@ -38,3 +42,5 @@ git checkout master ( volta para projeto atual)
 git revert ID DO COMMIT NO LOG (quando voce realiza uma alteracao no projeto e quer remover apenas ela , sem alterar os logs)
 git reset ID DO COMMIT NO LOG  ( porem no arquivo ainda mostra alteracoes do futuros)
 git revert ID DO COMMIT NO LOG --hard ( remove tudo as alteracoes ate no log ( nao é recomendado pois perdera todas as alteracoes)
+
+arquivo .gitignore ( voce pode jogar todos arquivo que inicia com . para que git ignore , geralmente arquivo no banco de dados como senha e login)
