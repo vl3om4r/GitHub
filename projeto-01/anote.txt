@@ -44,3 +44,14 @@ git reset ID DO COMMIT NO LOG  ( porem no arquivo ainda mostra alteracoes do fut
 git revert ID DO COMMIT NO LOG --hard ( remove tudo as alteracoes ate no log ( nao é recomendado pois perdera todas as alteracoes)
 
 arquivo .gitignore ( voce pode jogar todos arquivo que inicia com . para que git ignore , geralmente arquivo no banco de dados como senha e login)
+
+// criando branch //
+
+git branch ( visualiza quando branch tem criado)
+
+git branch NOME DO BRANCH ( exemplo git branch main , cria uma branch)
+git branch -d NOME DO BRANCH ( para deletar uma branch)
+git branch -D NOME DO BRANCH ( para forcar ,deletar uma branch)
+
+git checkout nome da branch ( para alterar em qual branch vai atuar)
+
