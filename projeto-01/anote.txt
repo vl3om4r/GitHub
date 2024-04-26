@@ -47,14 +47,21 @@ arquivo .gitignore ( voce pode jogar todos arquivo que inicia com . para que git
 
 // criando branch //
 
-<<<<<<< HEAD
-git branch ( visualiza quando branch tem criado)
+git branch ( visualiza quantas branch tem criado)
 
-=======
->>>>>>> main
+git branch ( visualiza quando branch tem criado)
 git branch NOME DO BRANCH ( exemplo git branch main , cria uma branch)
 git branch -d NOME DO BRANCH ( para deletar uma branch)
 git branch -D NOME DO BRANCH ( para forcar ,deletar uma branch)
 
 git checkout nome da branch ( para alterar em qual branch vai atuar)
 
+// aprendendo fundir os branch
+
+Descriacào: para voce fundir uma branch , sempre esteja na branch que voce desaja que sejá fundica ou sejá , para que os arquivos das outras branch possa migrar na que vc estejá.
+
+exemplo : git checkout master , estou na branch master agora quero trazer os arquivos da branch main que foi criado.
+
+git merge NOME DA BRANCH ( Vai fundir a branch atual com a quer eu chamar no codigo.)
+
+git merge main ( fundiu a master junto com main)
