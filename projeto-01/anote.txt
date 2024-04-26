@@ -47,8 +47,11 @@ arquivo .gitignore ( voce pode jogar todos arquivo que inicia com . para que git
 
 // criando branch //
 
+<<<<<<< HEAD
 git branch ( visualiza quando branch tem criado)
 
+=======
+>>>>>>> main
 git branch NOME DO BRANCH ( exemplo git branch main , cria uma branch)
 git branch -d NOME DO BRANCH ( para deletar uma branch)
 git branch -D NOME DO BRANCH ( para forcar ,deletar uma branch)
